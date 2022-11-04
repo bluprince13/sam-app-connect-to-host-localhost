@@ -4,6 +4,10 @@ This is a minimal working example to figure out how to let a lambda running
 locally via [SAM CLI](https://aws.amazon.com/serverless/sam/) can call a server
 running on the host machine's localhost.
 
+Referred to on StackOverflow question: [How to connect a lambda to a database accessible locally on Mac's localhost when using sam](https://stackoverflow.com/questions/74318930/how-to-connect-a-lambda-to-a-database-accessible-locally-on-macs-localhost-when)
+
+Contents:
+
 - `./hello.py`
   - A simple Python server that can be run on the host machine.
   - Accessible on `http://127.0.0.1:5000/`
